@@ -1,24 +1,23 @@
-# my_scrapy_project
- 
-📌 Overview
-This project uses Scrapy to scrape book data from Books to Scrape and saves the extracted information in a CSV file.
+# 📖 Scrapy Book Scraper
 
-🚀 Features
-✅ Scrapes book title, price, availability, and image URL
-✅ Handles pagination to scrape all pages
-✅ Saves data into a CSV file
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Scrapy](https://img.shields.io/badge/Scrapy-2.12-green)
 
-🛠 Setup & Usage
-1️⃣ Install Dependencies
-bash
-Copy
-Edit
+## 📌 Overview
+This project uses **Scrapy** to scrape book data from [Books to Scrape](http://books.toscrape.com/) and saves the extracted information in a **CSV file**.
+
+---
+
+## ✅ Features
+- 📚 Scrapes book **title, price, availability, and image URL**  
+- 🔄 Handles **pagination** to scrape all pages  
+- 💾 Saves data into a **CSV file**  
+
+---
+
+## 🛠 Installation & Usage
+
+### **1️⃣ Install Dependencies**
+```bash
 pip install scrapy
-2️⃣ Run the Scraper
-bash
-Copy
-Edit
-scrapy crawl books -o books.csv
-📁 Extracted Data Format
-Title	Price	Availability	Image URL
-Example Book	£10.99	In stock	http://image-url.jpg
+
